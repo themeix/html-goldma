@@ -863,6 +863,10 @@ video {
 	gap: 5rem;
 }
 
+.gap-10 {
+	gap: 2.5rem;
+}
+
 .overflow-hidden {
 	overflow: hidden;
 }
@@ -1131,6 +1135,11 @@ video {
 		position: relative;
 	}
 
+	.lg\:my-20 {
+		margin-top: 5rem;
+		margin-bottom: 5rem;
+	}
+
 	.lg\:mt-0 {
 		margin-top: 0px;
 	}
@@ -1155,8 +1164,16 @@ video {
 		flex-grow: 1;
 	}
 
+	.lg\:grid-cols-3 {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+
 	.lg\:items-center {
 		align-items: center;
+	}
+
+	.lg\:gap-20 {
+		gap: 5rem;
 	}
 
 	.lg\:bg-transparent {
@@ -1179,6 +1196,10 @@ video {
 
 	.lg\:pb-0 {
 		padding-bottom: 0px;
+	}
+
+	.lg\:text-left {
+		text-align: left;
 	}
 
 	.lg\:text-6xl {
